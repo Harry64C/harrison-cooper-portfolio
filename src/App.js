@@ -20,14 +20,16 @@ function App() {
       <header className="App-header">
 
 
-
-          <Navbr></Navbr>
+        <Navbr></Navbr>
         
         <Container>
 
+          <Self></Self>
+
+          <Projects></Projects>
+
           <Aboutme></Aboutme>
 
-          <Self></Self>
 
         </Container>
         

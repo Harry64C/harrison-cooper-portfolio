@@ -37,6 +37,7 @@
 
 .main-content {
   background-color: rgb(0, 128, 255);
+  margin: 2% auto;
 }
 
 .footer {
@@ -49,6 +50,18 @@
 }
 
 .profile-img {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 120px;
+  max-height: 120px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.small-logo {
+  max-width: 30px;
+  max-height: 30px;
+  background-color: white;
+}
+
+.project {
+  margin: 4px;
 }

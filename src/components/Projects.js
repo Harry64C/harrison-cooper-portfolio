@@ -1,12 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Chess from './Chess.js'
 
 function Projects() {
   return (
-    <div className = "main-content">
+    <div className = "main-content" id = "projects">
       <h1>Projects</h1>
-      <hr></hr>
+
+      <Chess></Chess>
 
       <p>
         The purpose of this project is to improve people’s access to air quality information. We

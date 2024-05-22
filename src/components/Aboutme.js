@@ -1,9 +1,8 @@
 import resume from '../images/HarrisonCooperResume2024.pdf';
 
-
 function Aboutme() {
   return (
-    <div className = "main-content">
+    <div className = "main-content" id = "aboutme">
       <h1>About me</h1>
       <hr></hr>
 
@@ -16,7 +15,7 @@ function Aboutme() {
       <p>● Vice Chair of IEEE (Institute of Electrical and Electronics Engineers)</p>
 
 
-      <a href= {resume} target="_blank" title="Harrison Cooper Resume">Open PDF</a>
+      <a href= {resume} target="_blank" title="Harrison Cooper Resume">Resume PDF</a>
 
     </div>
 

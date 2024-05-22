@@ -4,12 +4,12 @@ import selfPortrait from '../images/Self_portrait.jpg';
 function Self() {
   return (
     <div className = "main-content">
-      <h1>About me</h1>
-      <hr></hr>
+      <h1>
+        Hello, I'm Harrison Cooper. I'm an aspiring software engineer who has skills in
+        programming, web development, and database management. 
+      </h1>
 
-      Hero Section
-
-      {/* <img src={selfPortrait} className = "profile-img" alt="Photo of Harrison"/> */}
+      <img src={selfPortrait} className = "profile-img" alt="Photo of Harrison"/>
 
     </div>
 
