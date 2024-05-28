@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/harrison-cooper-portfolio/static/css/main.6ebe6ef3.css",
+    "main.js": "/harrison-cooper-portfolio/static/js/main.651ef80b.js",
+    "static/js/453.83def392.chunk.js": "/harrison-cooper-portfolio/static/js/453.83def392.chunk.js",
+    "static/media/Self_portrait.jpg": "/harrison-cooper-portfolio/static/media/Self_portrait.e22db4b3fd24d744b735.jpg",
+    "static/media/linkedin.png": "/harrison-cooper-portfolio/static/media/linkedin.ed373696b39ab56337cf.png",
+    "static/media/react_logo.png": "/harrison-cooper-portfolio/static/media/react_logo.21406e354b728899ca06.png",
+    "static/media/cpp_logo.png": "/harrison-cooper-portfolio/static/media/cpp_logo.e5bcbb997ba48e5c30eb.png",
+    "static/media/HarrisonCooperResume2024.pdf": "/harrison-cooper-portfolio/static/media/HarrisonCooperResume2024.bfc4d1457fb591e94438.pdf",
+    "static/media/mongodb_logo.png": "/harrison-cooper-portfolio/static/media/mongodb_logo.ab42e8befa924f2952b3.png",
+    "static/media/html_logo.png": "/harrison-cooper-portfolio/static/media/html_logo.5c435e23cd046f1cef2a.png",
+    "static/media/C_logo.png": "/harrison-cooper-portfolio/static/media/C_logo.5edc94bbc608a968a164.png",
+    "static/media/css_logo.png": "/harrison-cooper-portfolio/static/media/css_logo.7d53eb049e630b740fba.png",
+    "static/media/python_logo.png": "/harrison-cooper-portfolio/static/media/python_logo.d185df9da612bac6b951.png",
+    "static/media/java_logo.png": "/harrison-cooper-portfolio/static/media/java_logo.a660c96701ceba41b809.png",
+    "static/media/nodejs_logo.png": "/harrison-cooper-portfolio/static/media/nodejs_logo.d7d7409ff7524ef1879a.png",
+    "static/media/javascript.png": "/harrison-cooper-portfolio/static/media/javascript.a718688ba368d25afbd1.png",
+    "static/media/postgres_logo.png": "/harrison-cooper-portfolio/static/media/postgres_logo.324499dc0f83cb431259.png",
+    "index.html": "/harrison-cooper-portfolio/index.html",
+    "main.6ebe6ef3.css.map": "/harrison-cooper-portfolio/static/css/main.6ebe6ef3.css.map",
+    "main.651ef80b.js.map": "/harrison-cooper-portfolio/static/js/main.651ef80b.js.map",
+    "453.83def392.chunk.js.map": "/harrison-cooper-portfolio/static/js/453.83def392.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ebe6ef3.css",
+    "static/js/main.651ef80b.js"
+  ]
+}
