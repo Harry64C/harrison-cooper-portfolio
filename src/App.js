@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 
-import {useState, useEffect} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container';
 
@@ -10,7 +8,9 @@ import Navbr from './components/Navbr.js'
 import Aboutme from './components/Aboutme.js'
 import Projects from './components/Projects.js'
 import Footer from './components/Footer.js'
-import Self from './components/Self.js'
+import Header from './components/Header.js'
+import Skills from './components/Skills.js'
+
 
 function App() {
   return (
@@ -21,12 +21,15 @@ function App() {
 
 
         <Navbr></Navbr>
+
+        <Header></Header>
+
         
         <Container>
 
-          <Self></Self>
-
           <Projects></Projects>
+
+          <Skills></Skills>
 
           <Aboutme></Aboutme>
 

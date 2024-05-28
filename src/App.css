@@ -36,17 +36,26 @@
 }
 
 .main-content {
-  background-color: rgb(0, 128, 255);
-  margin: 2% auto;
+  margin: 10% auto;
+}
+
+.header {
+  padding: 1%;
+}
+.header h1 {
+  width: 90%;
+  margin: auto;
 }
 
 .footer {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 1vmin);
   color: white;
   padding: 3px;
+  min-height: 200px;
+  justify-content: center;
 }
 
 .profile-img {
@@ -56,12 +65,128 @@
   border-radius: 50%;
 }
 
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.proj-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .small-logo {
   max-width: 30px;
   max-height: 30px;
-  background-color: white;
+}
+
+button .small-logo{
+  max-width: 20px;
+  max-height: 20px;
 }
 
 .project {
-  margin: 4px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 1.2%;
+  font-size: calc(3px + 2vmin);
+  border-radius: 16px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(241, 241, 241);
+  transition: 0.4s;
+}
+.project h2 {
+  text-align: center;
+}
+
+.project:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+
+
+.button-gitrepo {
+  padding: 6px;
+  border-radius: 20px;
+  border-color: black;
+  margin-left: 4px;
+}
+.button-gitrepo:hover {
+  transform: scale(1.07);
+}
+
+#nav-brand {
+  font-size: 26px;
+}
+
+
+.school-logo {
+  width: 30%;
+  height: 30%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.education {  
+  padding: calc(6px + 2vmin);
+  font-size: calc(3px + 2vmin);
+  border-radius: 16px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(241, 241, 241);
+  transition: 0.4s;
+
+  display: flex;
+  margin: 0 auto 4px auto;
+  width: fit-content;
+  max-width: 75%;
+  gap: calc(6px + 2vmin);
+}
+
+.education:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+#extras {
+  text-align: left;
+}
+
+
+.tile {
+  width: min(10vw, 80px);
+  height: min(10vw, 80px);
+  display: grid;
+  place-content: center;
+}
+
+.black-tile {
+  background-color: #779556;
+}
+.white-tile {
+  background-color: #ebecd0;
+}
+
+.piece {
+  max-width: min(9vw, 70px);
+  max-height: min(9vw, 70px);
+}
+.piece:hover {
+  cursor: grab;
+}
+.piece:active {
+  cursor: grabbing;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-rows: repeat(8, min(10vw, 80px));
+  grid-template-columns: repeat(8, min(10vw, 80px));
+  margin: auto;
+  width: min(80vw, 640px);
+  height: min(80vw, 640px);
+  background-color: black;
+  place-content: center;
 }
