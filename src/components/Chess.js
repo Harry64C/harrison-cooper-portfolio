@@ -96,41 +96,53 @@ function Chess() {
   }
 
   const [clickedTile, SetClickedTile] = useState([0,0]);
-  const [turn, SetTurn] = useState('w');
+  const [oldTile, SetOldTile] = useState(null);
+  //const [turn, SetTurn] = useState('w');
 
-  useEffect(() => { // triggers on change to the clickedTile
-    let piece = boardArr[clickedTile[0]][clickedTile[1]]
-    if (!piece) return;
+  // useEffect(() => { // triggers on change to the clickedTile
+  //   let piece = boardArr[clickedTile[0]][clickedTile[1]]
+  //   if (!piece) return;
 
-    console.log(firstClick.length)
-    if (firstClick.length !== 0 && turn !== piece[0]) {
-      piece = firstClick;
-      firstClick = '';
+  //   if (firstClick.length !== 0 && turn !== piece[0]) {
+  //     piece = firstClick;
+  //     firstClick = '';
 
-      SetTurn((turn === 'w') ? 'b' : 'w');
+  //     SetTurn((turn === 'w') ? 'b' : 'w');
+  //   }
+
+  //   else if (turn === piece[0]) {
+  //     firstClick = clickedTile;
+  //     console.log("first click is " + firstClick)
+  //   }
+  //   else {
+  //     firstClick = [];
+  //   }
+  // }, [clickedTile, SetClickedTile]);
+
+
+    function clickTile(e) {
+      const element = e.target;
+
+      if (oldTile !== null) {
+        element.src = oldTile;
+        SetOldTile(null)
+      }
+      else if (element.classList.contains("piece")) {
+        SetOldTile(element.src);
+      }
     }
 
-    else if (turn === piece[0]) {
-      firstClick = clickedTile;
-      console.log("first click is " + firstClick)
-    }
-    else {
-      console.log("o no")
-
-      firstClick = [];
-    }
-  }, [clickedTile, SetClickedTile]);
-
-
+    
 
 
   for (let row = 0; row < 8; row++) {
     for (let col = 0; col < 8; col++) {
-      const tile = [row, col];
 
+      const tile = [row, col];
       const piece = setupBoard(row, col, boardArr);
 
-      board.push(<Tile tile = {tile} piece = {piece} clickFunction = {SetClickedTile}></Tile>)
+      const key = "" + row + col;
+      board.push(<Tile key = {key} tile = {tile} piece = {piece} clickFunction = {SetClickedTile}></Tile>)
     } 
   }
 
@@ -138,9 +150,9 @@ function Chess() {
 
   return (
     <div className = "project" id = "chess">
-      <h2>Chess (big flex)</h2>
+      <h2>Chess</h2>
 
-      <div className = "chessboard">{board}</div>
+      <div onMouseDown = {e => clickTile(e)} className = "chessboard">{board}</div>
     </div>
   );
 }

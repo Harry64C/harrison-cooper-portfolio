@@ -57,6 +57,13 @@
   min-height: 200px;
   justify-content: center;
 }
+.footer a {
+  color: white;
+  text-decoration:none
+}
+.footer a:hover {
+  color: rgb(212, 212, 212);
+}
 
 .profile-img {
   max-width: 120px;
@@ -160,6 +167,7 @@ button .small-logo{
   height: min(10vw, 80px);
   display: grid;
   place-content: center;
+  font-size: 0;
 }
 
 .black-tile {

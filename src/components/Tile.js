@@ -7,16 +7,16 @@ const Tile = (props) => {
 
   const handleClick = () => { 
     props.clickFunction(tile);
-}; 
+  }; 
 
   if ((tile[0] + tile[1]) % 2 === 1) {
-    return <div className = "tile black-tile" onClick = {handleClick}>
+    return <div className = "tile black-tile" onClick = {handleClick}>{tile}
       <img src = {piece} className = "piece" alt = ""></img>
     </div>
   }
 
   else {
-    return <div className = "tile white-tile" onClick = {handleClick}>
+    return <div className = "tile white-tile" onClick = {handleClick}>{tile}
       <img src = {piece} className = "piece" alt = ""></img>
     </div>
   }

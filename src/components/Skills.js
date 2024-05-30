@@ -19,21 +19,21 @@ function Skills() {
       </h2>
 
       <p>
-        <img src = {c} class = "logo"></img>
-        <img src = {cpp} class = "logo"></img>
-        <img src = {python} class = "logo"></img>
-        <img src = {java} class = "logo"></img>
+        <img src = {c} className = "logo"></img>
+        <img src = {cpp} className = "logo"></img>
+        <img src = {python} className = "logo"></img>
+        <img src = {java} className = "logo"></img>
       </p>
       <p>
-        <img src = {html} class = "logo"></img>
-        <img src = {css} class = "logo"></img>
-        <img src = {javascript} class = "logo"></img>
-        <img src = {react} class = "logo"></img>
-        <img src = {nodejs} class = "logo"></img>
+        <img src = {html} className = "logo"></img>
+        <img src = {css} className = "logo"></img>
+        <img src = {javascript} className = "logo"></img>
+        <img src = {react} className = "logo"></img>
+        <img src = {nodejs} className = "logo"></img>
       </p>
       <p>
-        <img src = {mongodb} class = "logo"></img>
-        <img src = {postgres} class = "logo"></img>
+        <img src = {mongodb} className = "logo"></img>
+        <img src = {postgres} className = "logo"></img>
       </p>
             
     </div>
