@@ -5,7 +5,7 @@ function Aboutme() {
   return (
     <div className = "main-content" id = "aboutme">
 
-      <h2>About Me</h2>
+      {/* <h2>About Me</h2>
       <div className = "education" id = "extras">
             <ul>
               <li>I have been a committed member of many clubs throughout university including tennis, chess, and competitive coding.</li>
@@ -14,7 +14,7 @@ function Aboutme() {
               <li>I competed in a school hackathon and created a discord bot in 2022.</li>
             </ul>
       </div>
-      <br></br>
+      <br></br> */}
 
       <h2>Education</h2>
       <div className = "education">

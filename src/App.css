@@ -39,8 +39,14 @@
   margin: 10% auto;
 }
 
+.banner {
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+}
+
 .header {
-  padding: 1%;
+  padding: 0%;
 }
 .header h1 {
   width: 90%;
