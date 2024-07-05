@@ -11,7 +11,7 @@ function Navbr() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#technical-skills">Skills</Nav.Link>
             <Nav.Link href="#aboutme">Education</Nav.Link>
             <Nav.Link href="#footer">Contact</Nav.Link>
           </Nav>

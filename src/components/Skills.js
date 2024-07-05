@@ -13,27 +13,27 @@ import react from '../images/logos/react_logo.png'
 
 function Skills() {
   return (
-    <div className = "main-content">
+    <div className = "main-content" id = "technical-skills">
       <h2>
         Technical Skills
       </h2>
 
       <p>
-        <img src = {c} className = "logo"></img>
-        <img src = {cpp} className = "logo"></img>
-        <img src = {python} className = "logo"></img>
-        <img src = {java} className = "logo"></img>
+        <img alt = "logo"  src = {c} className = "logo"></img>
+        <img alt = "logo" src = {cpp} className = "logo"></img>
+        <img alt = "logo" src = {python} className = "logo"></img>
+        <img alt = "logo" src = {java} className = "logo"></img>
       </p>
       <p>
-        <img src = {html} className = "logo"></img>
-        <img src = {css} className = "logo"></img>
-        <img src = {javascript} className = "logo"></img>
-        <img src = {react} className = "logo"></img>
-        <img src = {nodejs} className = "logo"></img>
+        <img alt = "logo" src = {html} className = "logo"></img>
+        <img alt = "logo" src = {css} className = "logo"></img>
+        <img alt = "logo" src = {javascript} className = "logo"></img>
+        <img alt = "logo" src = {react} className = "logo"></img>
+        <img alt = "logo" src = {nodejs} className = "logo"></img>
       </p>
       <p>
-        <img src = {mongodb} className = "logo"></img>
-        <img src = {postgres} className = "logo"></img>
+        <img alt = "logo" src = {mongodb} className = "logo"></img>
+        <img alt = "logo" src = {postgres} className = "logo"></img>
       </p>
             
     </div>
